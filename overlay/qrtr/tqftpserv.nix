@@ -7,7 +7,7 @@
 , meson
 , ninja
 , pkg-config
-, firmwareBase ? "/run/current-system/sw/share/uncompressed-firmware"
+, firmwareBase ? "/run/current-system/firmware"
 }:
 
 stdenv.mkDerivation (finalAttrs: {
